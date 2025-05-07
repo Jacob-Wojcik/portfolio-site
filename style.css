@@ -10,7 +10,7 @@ body {
   
   /* Top nav bar styling */
   nav.navbar {
-    background-color: #6e3939;
+    background-color: #502f2f;
     position: fixed;
     top: 0;
     left: 0;
@@ -18,7 +18,7 @@ body {
     width: 100%;
     padding: 0;
     z-index: 999;
-    box-shadow: 0 2px 5px rgba(158, 73, 73, 0.5);
+    box-shadow: 0 2px 5px rgba(145, 77, 77, 0.5);
   }
   
   /* Make nav items line up in a row */
@@ -46,7 +46,7 @@ body {
   }
   
   nav.navbar a:hover {
-    background-color: #333;
+    background-color: #6d4747;
   }
   
   /* Push down page content below fixed nav */

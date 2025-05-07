@@ -10,7 +10,7 @@ body {
   
   /* Top nav bar styling */
   nav.navbar {
-    background-color: #1f1f1f;
+    background-color: #6e3939;
     position: fixed;
     top: 0;
     left: 0;
@@ -18,7 +18,7 @@ body {
     width: 100%;
     padding: 0;
     z-index: 999;
-    box-shadow: 0 2px 5px rgba(14, 14, 14, 0.5);
+    box-shadow: 0 2px 5px rgba(158, 73, 73, 0.5);
   }
   
   /* Make nav items line up in a row */

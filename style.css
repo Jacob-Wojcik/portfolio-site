@@ -70,4 +70,8 @@ body {
     height: 100vh; /* 100% of the visible browser height */
     border: none;
   }
+
+  p {
+    font-size: 15pt;
+  }
   

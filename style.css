@@ -1,8 +1,27 @@
+  /* Push down page content below fixed nav */
+  header {
+    /* background-image: url('Stars_Header.jpg'); */
+    color: white;
+    padding-top: 75px;
+    text-align: center;
+    padding-bottom: 2rem;
+    position: relative;
+  }
+
+  .text-box {
+    background-color: #083266; /* Blue with transparency */
+    border: 2px solid white;               /* White border */
+    border-radius: 15px;                   /* Curved corners */
+    display: inline-block;
+    padding: 20px 30px;
+    margin-top: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3); /* Optional: soft shadow */
+  }
 /* Body settings */
 body {
     font-family: Arial, sans-serif;
-    background: #BB133E;
-    color: #ffffff;
+    background-image: url("Stars_Background.jpg");
+    color: #0a3161;
     margin: 0;
     padding: 0;
     scroll-behavior: smooth;
@@ -48,16 +67,7 @@ body {
   nav.navbar a:hover {
     background-color: #0a3161;;
   }
-  
-  /* Push down page content below fixed nav */
-  header {
-    padding-top: 75px;
-    text-align: center;
-    padding-bottom: 2rem;
-    background-color: #0a3161;
-    /* box-shadow: 0 2px 5px rgba(255, 255, 255, 0.5); */
-  }
-  
+
   #text_body {
     background-color: #ffffff;
     padding: .1rem 3rem;
